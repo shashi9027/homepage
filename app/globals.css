@@ -18,16 +18,61 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: black;
+
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.ins-btn {
+  width: 184px;
+  height: 60px;
+  top: 588px;
+  left: 180px;
+  border-radius: 200px;
+  border: 2px solid #FFE5B6;
+  color: #FFE5B6
+}
+
+.flex-important {
+  display: flex !important;
+}
+
+.main-text {
+  font-weight: 700;
+  line-height: 60px;
+  color: white;
+  font-family: Massenet Bold;
+}
+
+.sub-text {
+  font-family: Spezia;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white
+}
+
+.card-main-text {
+  font-family: Massenet Bold;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #D9BA81;
+
+}
+
+.card-name {
+  font-family: Spezia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+
 }
